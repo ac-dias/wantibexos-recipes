@@ -1,0 +1,19 @@
+NTHREADS= 8
+SYSDIM= "2D"
+DFT= V
+
+PARAMS_FILE= "tb_hr.dat" 
+KPATH_FILE= "kpoints.dat"
+KPATH_BSE= "kpoints-bse.dat" 
+OUTPUT= "./out/"
+CALC_DATA= "./out/"
+
+MESH_TYPE= "RK2D"
+RK= 80
+
+DOS= T
+ORB_W= "orb_w_s-p.dat"
+
+SPIN_TXT= T
+
+

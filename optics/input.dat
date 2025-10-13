@@ -1,0 +1,37 @@
+NTHREADS= 8
+SYSDIM= '2D'
+DFT= V
+
+
+OUTPUT= './out/'
+CALC_DATA= './out/'
+PARAMS_FILE= 'tb_hr.dat'
+KPATH_FILE= 'kpoints.dat'
+KPATH_BSE= 'kpoints_bse.dat'
+
+MESH_TYPE= RK2D
+RK= 120
+
+BSE_ALGO= cheevd
+
+IPA= F
+BSE= T
+SPEC= T
+TMCOEF= T
+CPOL= T
+
+PP_ONLY= F
+
+BSE_WF= T
+EXC_WF_I= 1
+EXC_WF_F= 10
+
+
+
+COULOMB_POT= V2DT
+NBANDSC= 2
+NBANDSV= 2
+
+CSHIFT= 0.05
+ENSPECI= 0.0
+ENSPECF= 4.0

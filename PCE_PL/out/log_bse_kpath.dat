@@ -1,0 +1,68 @@
+ threads:           8
+ 
+ grid:          44          44           1
+ 
+ ktol-coulomb:  1.0000000E-03
+ 
+ kmesh shift:  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ 
+ conduction bands, nc:           2   valence bands, nv:           2
+ 
+ Coulomb Potential:V2DT 
+ 
+ BSE_ALGO:cheevd      
+ 
+ number of kpoints in the path:             45
+ 
+ 
+ begin  day           8           10 hours          30 min           3 seg
+ 
+ quantum numbers for exciton basis set finished
+ progress:           1 /          45
+ progress:           2 /          45
+ progress:           3 /          45
+ progress:           4 /          45
+ progress:           5 /          45
+ progress:           6 /          45
+ progress:           7 /          45
+ progress:           8 /          45
+ progress:           9 /          45
+ progress:          10 /          45
+ progress:          11 /          45
+ progress:          12 /          45
+ progress:          13 /          45
+ progress:          14 /          45
+ progress:          15 /          45
+ progress:          16 /          45
+ progress:          17 /          45
+ progress:          18 /          45
+ progress:          19 /          45
+ progress:          20 /          45
+ progress:          21 /          45
+ progress:          22 /          45
+ progress:          23 /          45
+ progress:          24 /          45
+ progress:          25 /          45
+ progress:          26 /          45
+ progress:          27 /          45
+ progress:          28 /          45
+ progress:          29 /          45
+ progress:          30 /          45
+ progress:          31 /          45
+ progress:          32 /          45
+ progress:          33 /          45
+ progress:          34 /          45
+ progress:          35 /          45
+ progress:          36 /          45
+ progress:          37 /          45
+ progress:          38 /          45
+ progress:          39 /          45
+ progress:          40 /          45
+ progress:          41 /          45
+ progress:          42 /          45
+ progress:          43 /          45
+ progress:          44 /          45
+ progress:          45 /          45
+ 
+ end   day           8           10 hours          39 min           4 seg
+ 

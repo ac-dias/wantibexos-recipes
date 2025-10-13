@@ -1,0 +1,30 @@
+NTHREADS= 8
+SYSDIM= "2D"
+DFT= V
+
+PARAMS_FILE= "tb_hr.dat" 
+KPATH_FILE= "kpoints.dat"
+KPATH_BSE= "kpoints-bse.dat" 
+OUTPUT= "./out/"
+CALC_DATA= "./out/"
+
+BOLTZ= T
+
+MESH_TYPE= "RK2D"
+RK= 120
+
+BTEMP= 900.0000
+NEBOLTZ= 6001
+NEMU= 601
+MU_I=  -1.50000
+MU_F=   1.5000
+KappaL=  0.00
+
+ELFT_X=      2.48E-15
+ELFT_Y=      2.48E-15
+ELFT_Z=      2.48E-15
+HLFT_X=      11.32E-15
+HLFT_Y=      11.32E-15
+HLFT_Z=      11.32E-15
+
+

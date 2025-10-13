@@ -1,0 +1,14 @@
+NTHREADS= 8
+SYSDIM= "2D"
+DFT= V
+
+PARAMS_FILE= "tb_hr.dat" 
+KPATH_FILE= "kpoints.dat"
+KPATH_BSE= "kpoints-bse.dat" 
+OUTPUT= "./out/"
+CALC_DATA= "./out/"
+
+BANDS= T
+ORB_W= "orb_w_mo-d.dat"
+
+

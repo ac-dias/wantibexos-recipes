@@ -1,0 +1,16 @@
+NTHREADS= 8
+SYSDIM= "2D"
+DFT= V
+
+PARAMS_FILE= "tb_hr.dat" 
+KPATH_FILE= "kpoints.dat"
+KPATH_BSE= "kpoints-bse.dat" 
+OUTPUT= "./out/"
+CALC_DATA= "./out/"
+EM_FILE= "cbm_vbm.dat"
+
+EM_TENSOR= T
+dK=   0.1400
+
+
+

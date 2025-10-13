@@ -1,0 +1,134 @@
+NTHREADS= 8
+SYSDIM= 2D
+DFT= V
+ 
+ INPUT/OUTPUT FILES
+ 
+OUTPUT= ./out/                                                                
+CALC_DATA= ./out/                                                                
+PARAMS_FILE= tb_hr.dat                                                             
+KPATH_FILE= kpoints.dat                                                           
+KPATH_BSE= kpoints_bse.dat                                                       
+ORB_W= unknown                                                               
+EM_FILE= unknown                                                               
+ 
+ CONTROL
+ 
+BANDS= F
+DOS= F
+BSE= T
+BSE_BND= F
+IPA= F
+OPT_BZ= F
+SPEC= T
+BERRY_BZ= F
+BERRY= F
+PP_ONLY= T
+BSE_WF= T
+TMCOEF= T
+DTDIAG= F
+CPOL= T
+EM_TENSOR= F
+SPIN_TXT= F
+BOLTZ= F
+ 
+ K-MESH
+ 
+KMESH_GEN= MKH            
+NGX= 44
+NGY= 44
+NGZ= 1
+SHIFT_1=   0.0000
+SHIFT_2=   0.0000
+SHIFT_3=   0.0000
+ 
+ DOS
+ 
+NEDOS= 6001
+SIGMA=   0.0800
+ 
+ BSE/OPTICAL PROPERTIES
+ 
+BSE_ALGO= cheev       
+NBANDSC= 2
+NBANDSV= 2
+ENSPECI=   0.0000
+ENSPECF=   4.0000
+NESPEC= 6001
+KTOL=   0.0010
+EXC_WF_I= 1
+EXC_WF_F= 10
+COULOMB_POT= V2DT 
+CSHIFT=   0.0500
+RNMD= T
+ 
+ PARAMETERS FOR COULOMB POTENTIALS
+ 
+EDIEL_Z=   1.0000
+W_COUL=   0.0000
+LC=   1.0000
+R_0=   1.0000
+EDIEL_T=   1.0000
+EDIEL_B=   1.0000
+EDIEL=   1.0000
+ 
+ PARAMETERS FOR BSE with Temperature Effects
+ 
+TA= FA
+ST=   0.0000
+PHAVG=   0.0000
+TEMP=   0.0000
+ 
+ PARAMETERS FOR PCE
+ 
+SES= AM15G 
+CTEMP= 300.0000
+THMAX=      0.6430E-09
+EG=   2.1937
+EGD=   2.1937
+EGS=   1.6492
+EBGS=   1.6492
+ 
+ Effective Mass
+ 
+dK=   0.1400
+ 
+ OTHERS
+ 
+FERMI_SHIFT=   0.0000
+NOCPF= 0
+ 
+ PARAMETERS FOR BOLTZMANN TRANSPORT
+ 
+BTEMP= 300.0000
+NEBOLTZ= 6001
+NEMU= 601
+MU_I=  -2.0000
+MU_F=   2.0000
+KappaL=   0.0000
+ELFT_X=      0.1000E+01
+ELFT_Y=      0.1000E+01
+ELFT_Z=      0.1000E+01
+HLFT_X=      0.1000E+01
+HLFT_Y=      0.1000E+01
+HLFT_Z=      0.1000E+01
+SIGMA_BOLTZ=      0.1000E-01
+ 
+ EXTERNAL HAMILTONIANS
+ 
+SPIN_EXC=   0.0000
+MAG_X=   0.0000
+MAG_Y=   0.0000
+MAG_Z=   1.0000
+ 
+ 
+ 
+ Begin  day           8           15 hours          56 min           2 seg
+ 
+ BSE dielectric properties calculated
+ BSE absorption/PL spectrum with light polarization calculated
+ Single particle dielectric properties calculated
+ Single particle absorption/PL spectrum with light polarization calculated
+ 
+ End   day           8           15 hours          56 min           5 seg
+ 

@@ -1,0 +1,22 @@
+NTHREADS= 8
+SYSDIM= 2D
+DFT= V
+
+
+OUTPUT= './out/'
+CALC_DATA= './out/'
+
+PARAMS_FILE= 'tb_hr.dat'
+KPATH_FILE= 'kpoints.dat'
+KPATH_BSE= 'kpoints-bse.dat'
+
+
+MESH_TYPE= "RK2D"
+KMESH_GEN= "2DHEX"
+RK= 400
+
+BERRY_BZ= T
+BERRY= T
+
+NBANDSC= 2
+NBANDSV= 2
