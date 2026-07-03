@@ -1,0 +1,14 @@
+NTHREADS= 8
+SYSDIM= "2D"
+DFT= S
+
+PARAMS_FILE= "tb-soc.dat" 
+KPATH_FILE= "kpoints.dat"
+KPATH_BSE= "kpoints-bse.dat" 
+OUTPUT= "./out/"
+CALC_DATA= "./out/"
+
+BANDS= T
+
+
+

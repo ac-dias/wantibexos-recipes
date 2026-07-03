@@ -1,0 +1,27 @@
+This is an example of how to use siesta to wantibexos interface
+
+to run siesta2wtb.py it's mandatory to have sisl installed (0.16.2 version - recommended)
+
+1) Go to siesta folder and run siesta dft calculation
+
+mandatory flags: 
+
+CDF.Save true
+CDF.Compress 9
+SaveHS true
+SaveRho true
+
+2) Finished siesta calculation:
+
+ - copy siesta2wtb.py inside siesta folder
+ - in siesta folder execute: python3 siesta2wtb.py calc.fdf
+ - it will generate the following outputs: tb-xx.dat, system-info-xx.dat, basis_set-xx
+ - xx= np for non-polarized, sp for spin-polarized, soc for spin-orbit couplinf
+ - tb-xx.dat: this file contains the hamiltonian to be used in wantibexos
+ - system-info-xx.dat: contains aditional information from sisl
+ - basis_set-xx: this file informs the basis set that the hamiltonian is written
+ 
+3) Copy tb-xx.dat for wtb folder and run wantibexos 
+
+ - wtb.x < input.dat
+

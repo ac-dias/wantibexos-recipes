@@ -1,0 +1,53 @@
+%include struct.fdf
+
+PAO.BasisSize DZP
+PAO.EnergyShift      0.035 Ry
+
+
+XC.functional        GGA
+XC.authors           PBE
+SpinOrbit .true.
+#SpinPolarized         .true.
+#NumberOfEigenStates   50 
+NonCollinearSpin .false.
+
+
+
+kgrid.MonkhorstPack [16 16 1]
+%block Geometry.Constraints
+    stress 3 4 5 6
+%endblock Geometry.Constraints
+
+DFTD3 .true.
+
+
+MaxSCFIterations     300
+DM.MixingWeight      0.1
+DM.NumberPulay       3
+DM.Tolerance         1.d-5 eV
+DM.EnergyTolerance   1.d-6 eV
+
+MeshCutOff          350.0  Ry
+FilterCutoff        200.0  Ry
+
+Diag.ParallelOverK      .true.
+
+SolutionMethod       diagon
+ElectronicTemperature  25 meV
+
+
+CDF.Save true
+CDF.Compress 9
+SaveHS true
+SaveRho true
+
+BandLinesScale ReciprocalLatticeVectors
+%block BandLines
+1  0.5  0.0  0.0
+20 0.0  0.0  0.0
+20 0.33333333 0.33333333 0.000
+20 0.5  0.0  0.0
+%endblock BandLines
+
+
+

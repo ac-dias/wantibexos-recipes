@@ -49,6 +49,7 @@ set multiplot layout 2,3
 ################################################################################
 
 #set yrange[-1.5:1.5]
+set ytics offset -1,0
 #set ytics -1.5, 1.0, 1.5
 set ylabel "{/Symbol e}_{1}" font "Times-Roman,20" offset -1.0,0
 
